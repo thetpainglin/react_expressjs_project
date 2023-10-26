@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/********  Custom CSS data    *********/
+:root{
+  --primary-white : #fff;
+  --primary-orange:#f9ab00;
+  --primary-dark:rgba(255,255,255,0);
+}
+body{
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.logo{
+  width : 16.25rem;
+}
+
+.nav a.nav-link{
+ /* font-weight: 500;*/
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark) ;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding : 0 !important;
+  height: 6rem !important;
+}
+
+.nav-link {
+  margin-right: 0.75rem ;
+  margin-left: 0.75rem ;
+  color: var(--primary-white) !important;
+}
+
+.navbar-nav > li > a.active , .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange) ;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange) ;
+}
+
+.font-sp{
+  height : 20px;
+}
+
+.awesomeIcon {
+  cursor: pointer;
+}
