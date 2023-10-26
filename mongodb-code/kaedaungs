@@ -1,0 +1,271 @@
+[{
+  "_id": {
+    "$oid": "629195e395ba9bc93a74590e"
+  },
+  "name": "Ko Soe Ko Chit",
+  "father": "U Tun Tun",
+  "mother": "Daw Nwai Po",
+  "age": 26,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 3,
+  "goals": 1,
+  "height": "5' 6\"",
+  "position": "MC",
+  "image": "/football_images/player_10.png"
+},{
+  "_id": {
+    "$oid": "629195f295ba9bc93a74590f"
+  },
+  "name": "Ko Chit Ko Chit",
+  "father": "U Tun Tun",
+  "mother": "Daw Nwai Po",
+  "age": 19,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 2,
+  "goals": 3,
+  "height": "5' 4\"",
+  "position": "MR",
+  "image": "/football_images/sancho.png"
+},{
+  "_id": {
+    "$oid": "629196d295ba9bc93a745916"
+  },
+  "name": "Ko Aung Kyaw Moe",
+  "father": "U San Oo",
+  "mother": "Daw Tin Tin Win",
+  "age": 19,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 5,
+  "goals": 10,
+  "height": "4' 6\"",
+  "position": "RST",
+  "image": "/football_images/ronaldo.png"
+},{
+  "_id": {
+    "$oid": "62919ac195ba9bc93a745917"
+  },
+  "name": "Ko Zin Myo Lwin",
+  "father": "U San Oo",
+  "mother": "Daw Tin Tin Win",
+  "age": 18,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 8,
+  "goals": 8,
+  "height": "5' 5\"",
+  "position": "LST",
+  "image": "/football_images/hl.png"
+},{
+  "_id": {
+    "$oid": "62919af695ba9bc93a745918"
+  },
+  "name": "Ko Htin Aung Chit",
+  "father": "U Htin Ya",
+  "mother": "Daw Aye Chit",
+  "age": 21,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 3,
+  "goals": 4,
+  "height": "5' 6\"",
+  "position": "MR",
+  "image": "/football_images/pogba.png"
+},{
+  "_id": {
+    "$oid": "62919b0b95ba9bc93a745919"
+  },
+  "name": "Ko Than Htike",
+  "father": "U Htin Ya",
+  "mother": "Daw Aye Chit",
+  "age": 18,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 2,
+  "goals": 3,
+  "height": "5' 6\"",
+  "position": "CB",
+  "image": "/football_images/ym.png"
+},{
+  "_id": {
+    "$oid": "62919b9095ba9bc93a74591a"
+  },
+  "name": "Ko wai Yan Lin",
+  "father": "U Aung Naing Oo",
+  "mother": "Daw Gwet Too",
+  "age": 22,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 3,
+  "goals": 7,
+  "height": "5' 5\"",
+  "position": "CST",
+  "image": "/football_images/gsm.png"
+},{
+  "_id": {
+    "$oid": "62919bac95ba9bc93a74591b"
+  },
+  "name": "Ko Phoe Chit",
+  "father": "U Aung Naing Oo",
+  "mother": "Daw Gwet Too",
+  "age": 18,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 6,
+  "goals": 9,
+  "height": "5 3\"",
+  "position": "WR",
+  "image": "/football_images/bale.png"
+},{
+  "_id": {
+    "$oid": "62919bca95ba9bc93a74591c"
+  },
+  "name": "Ko Khaing Min Htwe",
+  "father": "U Tun Yee",
+  "mother": "Daw Moe Moe",
+  "age": 16,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 2,
+  "goals": 3,
+  "height": "5' 5\"",
+  "position": "LB",
+  "image": "/football_images/player_1.png"
+},{
+  "_id": {
+    "$oid": "62919bff95ba9bc93a74591d"
+  },
+  "name": "Ko Kyaw Myo Thu",
+  "father": "U Than Khaing",
+  "mother": "Daw Nyo Than",
+  "age": 19,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 0,
+  "goals": 0,
+  "height": "5' 6\"",
+  "position": "GK",
+  "image": "/football_images/player_2.png"
+},{
+  "_id": {
+    "$oid": "62919c8695ba9bc93a74591e"
+  },
+  "name": "Ko Taing Ko",
+  "father": "U Than Paing",
+  "mother": "Daw Win Htay",
+  "age": 16,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": "2",
+  "goals": 2,
+  "height": "5' 5\"",
+  "position": "RB",
+  "image": "/football_images/player_3.png"
+},{
+  "_id": {
+    "$oid": "62919cb095ba9bc93a74591f"
+  },
+  "name": "Ko Hein Myo Lwin",
+  "father": "U Win Paing",
+  "mother": "Daw Khin Myo Chit",
+  "age": 19,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 1,
+  "goals": 3,
+  "height": "5' 6\"",
+  "position": "CM",
+  "image": "/football_images/player_11.png"
+},{
+  "_id": {
+    "$oid": "6291a91e95ba9bc93a745920"
+  },
+  "name": "Ko Yin Phyo Ko",
+  "father": "U Ko Myo",
+  "mother": "Daw Nyo San",
+  "age": 19,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "__v": 0,
+  "assistant": 9,
+  "goals": 8,
+  "height": "5' 4\"",
+  "position": "AM",
+  "image": "/football_images/player_6.png"
+},{
+  "_id": {
+    "$oid": "62db862338f0e21f247a2f43"
+  },
+  "name": "Ko Nyein Ko",
+  "father": "U Soe Naing",
+  "mother": "Daw Htay Htay",
+  "age": 30,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "assistant": 1,
+  "goals": 2,
+  "height": "4' 5\"",
+  "position": "MC",
+  "__v": 0,
+  "image": "/football_images/ldsm.png"
+},{
+  "_id": {
+    "$oid": "62e27dcbd140a62da1a17fe5"
+  },
+  "name": "Ko Okar Chit",
+  "father": "U Tun Tun",
+  "mother": "Daw Nwe Po",
+  "age": 15,
+  "address": "Kae Daung Village , Kani TownShip , Sagaing Division",
+  "assistant": 5,
+  "goals": 5,
+  "height": "4' 3\"",
+  "position": "GK",
+  "__v": 0,
+  "image": "/football_images/kroon.png"
+},{
+  "_id": {
+    "$oid": "62e9f38fbfa1607a3d737687"
+  },
+  "name": "Ko Phyo Htwe Update",
+  "father": "U Than Lwin",
+  "mother": "Daw Mya Nyo",
+  "age": 25,
+  "address": "Kae Daung Village , Kani TownShip , Sagaing Division",
+  "assistant": 4,
+  "goals": 3,
+  "height": "5' 1\"",
+  "position": "SS",
+  "__v": 0,
+  "image": "/football_images/eds.png"
+},{
+  "_id": {
+    "$oid": "62e216b393f06d8be79286e1"
+  },
+  "name": "Ko Nyein Ko",
+  "image": "/football_images/player_10.png",
+  "father": "U Soe Naing",
+  "mother": "Daw Htay Htay",
+  "age": 30,
+  "address": "Sagaing Division , Kani TownShip , Kae Daung Village",
+  "assistant": 0,
+  "goals": 0,
+  "height": "4' 5\"",
+  "position": "MC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64f095d6b77afd11c82618af"
+  },
+  "name": "Ko Maung Nyein",
+  "image": "/football_images/player_12.png",
+  "father": "U Ba",
+  "mother": "Daw Mya",
+  "age": 26,
+  "address": "kae Daung",
+  "assistant": 4,
+  "goals": 4,
+  "height": "5' ",
+  "position": "MC",
+  "__v": 0
+}]

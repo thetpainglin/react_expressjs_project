@@ -1,0 +1,1243 @@
+{
+	"info": {
+		"_postman_id": "1667a3d5-d170-4308-b3fb-29ba0de77e80",
+		"name": "KaeDaungFootBallClub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PlayerReview",
+			"item": [
+				{
+					"name": "AddPlayerReview",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"player\": \"62919b0b95ba9bc93a745919\",\n    \"playerRating\" : 7,\n    \"playerScore\" : \"nice player\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "AddPlayerReview",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\": \"62919b0b95ba9bc93a745919\",\n    \"playerRating\" : 7,\n    \"playerScore\" : \"nice player\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/kaeDaung/playerReview",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"kaeDaung",
+										"playerReview"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "123"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"7b-uU1dz9fWptKlTJt0OM8ymPQ/GRU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 28 Jul 2022 04:59:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"player\": \"62919b0b95ba9bc93a745919\",\n    \"playerRating\": 7,\n    \"playerScore\": \"nice player\",\n    \"_id\": \"62e217b393f06d8be79286e7\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "GetAllPlayerReview",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GetAllPlayerReview",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/kaeDaung/playerReview",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"kaeDaung",
+										"playerReview"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "9092"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2384-bz/ArlzSmen/GEAroSIfXbqGBCA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 28 Jul 2022 04:58:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"6291d30c63875ec370685e0c\",\n        \"player\": {\n            \"_id\": \"6291a91e95ba9bc93a745920\",\n            \"name\": \"Ko Yin Phyo Ko\",\n            \"father\": \"U Ko Myo\",\n            \"mother\": \"Daw Nyo San\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 9,\n            \"goals\": 8,\n            \"height\": \"5' 4\\\"\",\n            \"position\": \"AM\",\n            \"image\": \"/football_images/player_6.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \"Good Player \",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6291daea2eb598efcebae28a\",\n        \"player\": {\n            \"_id\": \"629195f295ba9bc93a74590f\",\n            \"name\": \"Ko Chit Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 2,\n            \"goals\": 3,\n            \"height\": \"5' 4\\\"\",\n            \"position\": \"MR\",\n            \"image\": \"/football_images/sancho.png\"\n        },\n        \"playerRating\": 4,\n        \"playerScore\": \" nice Player ,but more try\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6291db9f9ec100bf16d12846\",\n        \"player\": {\n            \"_id\": \"629196d295ba9bc93a745916\",\n            \"name\": \"Ko Aung Kyaw Moe\",\n            \"father\": \"U San Oo\",\n            \"mother\": \"Daw Tin Tin Win\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 5,\n            \"goals\": 10,\n            \"height\": \"4' 6\\\"\",\n            \"position\": \"RST\",\n            \"image\": \"/football_images/ronaldo.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \" nice player \",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6291dbd29ec100bf16d12848\",\n        \"player\": {\n            \"_id\": \"62919ac195ba9bc93a745917\",\n            \"name\": \"Ko Zin Myo Lwin\",\n            \"father\": \"U San Oo\",\n            \"mother\": \"Daw Tin Tin Win\",\n            \"age\": 18,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 8,\n            \"goals\": 8,\n            \"height\": \"5' 5\\\"\",\n            \"position\": \"LST\",\n            \"image\": \"/football_images/hl.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \"So good player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6291dbf59ec100bf16d1284a\",\n        \"player\": {\n            \"_id\": \"62919af695ba9bc93a745918\",\n            \"name\": \"Ko Htin Aung Chit\",\n            \"father\": \"U Htin Ya\",\n            \"mother\": \"Daw Aye Chit\",\n            \"age\": 21,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 3,\n            \"goals\": 4,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"MR\",\n            \"image\": \"/football_images/pogba.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \"nice player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6291dc0e9ec100bf16d1284c\",\n        \"player\": {\n            \"_id\": \"62919b0b95ba9bc93a745919\",\n            \"name\": \"Ko Than Htike\",\n            \"father\": \"U Htin Ya\",\n            \"mother\": \"Daw Aye Chit\",\n            \"age\": 18,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 2,\n            \"goals\": 3,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"CB\",\n            \"image\": \"/football_images/ym.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \"nice player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d661273f8dfa7d44b6144e\",\n        \"player\": {\n            \"_id\": \"629195e395ba9bc93a74590e\",\n            \"name\": \"Ko Soe Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 26,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 3,\n            \"goals\": 1,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"MC\",\n            \"image\": \"/football_images/player_10.png\"\n        },\n        \"playerRating\": 6,\n        \"playerScore\": \"Ok Your decision is very good !\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d681cd2d664abf37533e2f\",\n        \"player\": {\n            \"_id\": \"629196d295ba9bc93a745916\",\n            \"name\": \"Ko Aung Kyaw Moe\",\n            \"father\": \"U San Oo\",\n            \"mother\": \"Daw Tin Tin Win\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 5,\n            \"goals\": 10,\n            \"height\": \"4' 6\\\"\",\n            \"position\": \"RST\",\n            \"image\": \"/football_images/ronaldo.png\"\n        },\n        \"playerRating\": 5,\n        \"playerScore\": \"So next good Player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d78f192d664abf37533e81\",\n        \"player\": {\n            \"_id\": \"62919bff95ba9bc93a74591d\",\n            \"name\": \"Ko Kyaw Myo Thu\",\n            \"father\": \"U Than Khaing\",\n            \"mother\": \"Daw Nyo Than\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 0,\n            \"goals\": 0,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"GK\",\n            \"image\": \"/football_images/player_2.png\"\n        },\n        \"playerRating\": 5,\n        \"playerScore\": \"keeper good\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d8bfe128f3d3d11420fe39\",\n        \"player\": null,\n        \"playerRating\": 5,\n        \"playerScore\": \"good player \",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d9056ef6b11960d75b45c0\",\n        \"player\": null,\n        \"playerRating\": 5,\n        \"playerScore\": \"so good Player .We get is is \",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62d90601f6b11960d75b45d6\",\n        \"player\": null,\n        \"playerRating\": 2,\n        \"playerScore\": \"So bad .Do you know your play style\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62da72326cf3747d5f679ae1\",\n        \"player\": null,\n        \"playerRating\": 5,\n        \"playerScore\": \"jki\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62da72456cf3747d5f679aeb\",\n        \"player\": {\n            \"_id\": \"62919bac95ba9bc93a74591b\",\n            \"name\": \"Ko Phoe Chit\",\n            \"father\": \"U Aung Naing Oo\",\n            \"mother\": \"Daw Gwet Too\",\n            \"age\": 18,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 6,\n            \"goals\": 9,\n            \"height\": \"5 3\\\"\",\n            \"position\": \"WR\",\n            \"image\": \"/football_images/bale.png\"\n        },\n        \"playerRating\": 7,\n        \"playerScore\": \"good player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db62ae6cf3747d5f679b1a\",\n        \"player\": null,\n        \"playerRating\": 6,\n        \"playerScore\": \"Good Player \",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db638e6cf3747d5f679b2f\",\n        \"player\": {\n            \"_id\": \"62919ac195ba9bc93a745917\",\n            \"name\": \"Ko Zin Myo Lwin\",\n            \"father\": \"U San Oo\",\n            \"mother\": \"Daw Tin Tin Win\",\n            \"age\": 18,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 8,\n            \"goals\": 8,\n            \"height\": \"5' 5\\\"\",\n            \"position\": \"LST\",\n            \"image\": \"/football_images/hl.png\"\n        },\n        \"playerRating\": 5,\n        \"playerScore\": \"good player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db63e66cf3747d5f679b38\",\n        \"player\": {\n            \"_id\": \"629195e395ba9bc93a74590e\",\n            \"name\": \"Ko Soe Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 26,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 3,\n            \"goals\": 1,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"MC\",\n            \"image\": \"/football_images/player_10.png\"\n        },\n        \"playerRating\": 4,\n        \"playerScore\": \"You need more to try . I am no selected you\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db99aba7a3ef152d969260\",\n        \"player\": {\n            \"_id\": \"629196d295ba9bc93a745916\",\n            \"name\": \"Ko Aung Kyaw Moe\",\n            \"father\": \"U San Oo\",\n            \"mother\": \"Daw Tin Tin Win\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 5,\n            \"goals\": 10,\n            \"height\": \"4' 6\\\"\",\n            \"position\": \"RST\",\n            \"image\": \"/football_images/ronaldo.png\"\n        },\n        \"playerRating\": 4,\n        \"playerScore\": \"Good Player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db9d6aa7a3ef152d96926e\",\n        \"player\": {\n            \"_id\": \"62db862338f0e21f247a2f43\",\n            \"name\": \"Ko Nyein Ko\",\n            \"father\": \"U Soe Naing\",\n            \"mother\": \"Daw Htay Htay\",\n            \"age\": 30,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"assistant\": 1,\n            \"goals\": 2,\n            \"height\": \"4' 5\\\"\",\n            \"position\": \"MC\",\n            \"__v\": 0,\n            \"image\": \"/football_images/ldsm.png\"\n        },\n        \"playerRating\": 4,\n        \"playerScore\": \"You are so bad player!\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db9dc1a7a3ef152d969283\",\n        \"player\": {\n            \"_id\": \"62db862338f0e21f247a2f43\",\n            \"name\": \"Ko Nyein Ko\",\n            \"father\": \"U Soe Naing\",\n            \"mother\": \"Daw Htay Htay\",\n            \"age\": 30,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"assistant\": 1,\n            \"goals\": 2,\n            \"height\": \"4' 5\\\"\",\n            \"position\": \"MC\",\n            \"__v\": 0,\n            \"image\": \"/football_images/ldsm.png\"\n        },\n        \"playerRating\": 5,\n        \"playerScore\": \"Love your play style.\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62db9deba7a3ef152d969291\",\n        \"player\": {\n            \"_id\": \"629195f295ba9bc93a74590f\",\n            \"name\": \"Ko Chit Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 2,\n            \"goals\": 3,\n            \"height\": \"5' 4\\\"\",\n            \"position\": \"MR\",\n            \"image\": \"/football_images/sancho.png\"\n        },\n        \"playerRating\": 6,\n        \"playerScore\": \"Good Middle Player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62e27d15d140a62da1a17fd1\",\n        \"player\": {\n            \"_id\": \"629195f295ba9bc93a74590f\",\n            \"name\": \"Ko Chit Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 19,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 2,\n            \"goals\": 3,\n            \"height\": \"5' 4\\\"\",\n            \"position\": \"MR\",\n            \"image\": \"/football_images/sancho.png\"\n        },\n        \"playerRating\": 3,\n        \"playerScore\": \"So good player\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62e27e42d140a62da1a18002\",\n        \"player\": {\n            \"_id\": \"62e27dcbd140a62da1a17fe5\",\n            \"name\": \"Ko Okar Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwe Po\",\n            \"age\": 15,\n            \"address\": \"Kae Daung Village , Kani TownShip , Sagaing Division\",\n            \"assistant\": 5,\n            \"goals\": 5,\n            \"height\": \"4' 3\\\"\",\n            \"position\": \"GK\",\n            \"__v\": 0,\n            \"image\": \"/football_images/kroon.png\"\n        },\n        \"playerRating\": 6,\n        \"playerScore\": \"so good keeper\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62e9f3b5bfa1607a3d73768c\",\n        \"player\": {\n            \"_id\": \"62e9f38fbfa1607a3d737687\",\n            \"name\": \"Ko Phyo Htwe Update\",\n            \"father\": \"U Than Lwin\",\n            \"mother\": \"Daw Mya Nyo\",\n            \"age\": 25,\n            \"address\": \"Kae Daung Village , Kani TownShip , Sagaing Division\",\n            \"assistant\": 4,\n            \"goals\": 3,\n            \"height\": \"5' 1\\\"\",\n            \"position\": \"SS\",\n            \"__v\": 0,\n            \"image\": \"/football_images/eds.png\"\n        },\n        \"playerRating\": 3,\n        \"playerScore\": \"new player. Not bad!\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62e9f3fabfa1607a3d73769a\",\n        \"player\": {\n            \"_id\": \"62e9f38fbfa1607a3d737687\",\n            \"name\": \"Ko Phyo Htwe Update\",\n            \"father\": \"U Than Lwin\",\n            \"mother\": \"Daw Mya Nyo\",\n            \"age\": 25,\n            \"address\": \"Kae Daung Village , Kani TownShip , Sagaing Division\",\n            \"assistant\": 4,\n            \"goals\": 3,\n            \"height\": \"5' 1\\\"\",\n            \"position\": \"SS\",\n            \"__v\": 0,\n            \"image\": \"/football_images/eds.png\"\n        },\n        \"playerRating\": 4,\n        \"playerScore\": \"more health to play\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62edf40010e7906a637ac70a\",\n        \"player\": {\n            \"_id\": \"62db862338f0e21f247a2f43\",\n            \"name\": \"Ko Nyein Ko\",\n            \"father\": \"U Soe Naing\",\n            \"mother\": \"Daw Htay Htay\",\n            \"age\": 30,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"assistant\": 1,\n            \"goals\": 2,\n            \"height\": \"4' 5\\\"\",\n            \"position\": \"MC\",\n            \"__v\": 0,\n            \"image\": \"/football_images/ldsm.png\"\n        },\n        \"playerRating\": 5,\n        \"playerScore\": \"Are you play in your team forever ?\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"62f8736de6102d23aed0bbc8\",\n        \"player\": {\n            \"_id\": \"629195e395ba9bc93a74590e\",\n            \"name\": \"Ko Soe Ko Chit\",\n            \"father\": \"U Tun Tun\",\n            \"mother\": \"Daw Nwai Po\",\n            \"age\": 26,\n            \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n            \"__v\": 0,\n            \"assistant\": 3,\n            \"goals\": 1,\n            \"height\": \"5' 6\\\"\",\n            \"position\": \"MC\",\n            \"image\": \"/football_images/player_10.png\"\n        },\n        \"playerRating\": 6,\n        \"playerScore\": \"so nice player you got what I mean.\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "getPlayerId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview/6291a91e95ba9bc93a745920",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview",
+								"6291a91e95ba9bc93a745920"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteReview",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview/6291d35263875ec370685e0e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview",
+								"6291d35263875ec370685e0e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getReviewByPlayerId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview/player/6291a91e95ba9bc93a745920",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview",
+								"player",
+								"6291a91e95ba9bc93a745920"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editPlayerReview",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearar eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"player\" : \"629196d295ba9bc93a745916\",\n    \"playerRating\" : 5,\n    \"playerScore\" : \"So next good Player\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/playerReview/62d681cd2d664abf37533e2f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"playerReview",
+								"62d681cd2d664abf37533e2f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PlayerDetail",
+			"item": [
+				{
+					"name": "CreateNewPlayer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODIyMDk4M30.I3Q5awTdzoo1-N4htG8YfI5Uvy7SR35bSRex07ZCurY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"image\" : \"/football_images/player_10.png\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"father\" : \"U Soe Naing\",\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n    \"goals\" : 0,\n    \"assistant\" : 0,\n    \"height\" : \"4' 5\\\"\",\n    \"position\" : \"MC\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/KaeDaung/FootBallClub",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"KaeDaung",
+								"FootBallClub"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "newPlayerAdd",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODIyMDk4M30.I3Q5awTdzoo1-N4htG8YfI5Uvy7SR35bSRex07ZCurY",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"image\" : \"/football_images/player_10.png\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"father\" : \"U Soe Naing\",\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n    \"goals\" : 0,\n    \"assistant\" : 0,\n    \"height\" : \"4' 5\\\"\",\n    \"position\" : \"MC\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/KaeDaung/FootBallClub",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"KaeDaung",
+										"FootBallClub"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "284"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"11c-jLMSwbHN++sIKStbKn3Nz6omYb0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 28 Jul 2022 04:55:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"name\": \"Ko Nyein Ko\",\n    \"image\": \"/football_images/player_10.png\",\n    \"father\": \"U Soe Naing\",\n    \"mother\": \"Daw Htay Htay\",\n    \"age\": 30,\n    \"address\": \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n    \"assistant\": 0,\n    \"goals\": 0,\n    \"height\": \"4' 5\\\"\",\n    \"position\": \"MC\",\n    \"_id\": \"62e216b393f06d8be79286e1\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "getAllPlayer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODIyMDk4M30.I3Q5awTdzoo1-N4htG8YfI5Uvy7SR35bSRex07ZCurY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"father\" : \"U Soe Naing\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/footballClub/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"footballClub",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "searchByName",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"father\" : \"U Soe Naing\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/footballClub/playerName/Ko Htin Aung Chit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"footballClub",
+								"playerName",
+								"Ko Htin Aung Chit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getOnePlayer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"father\" : \"U Soe Naing\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/footballClub/629194a7b1560365f4f60809",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"footballClub",
+								"629194a7b1560365f4f60809"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletePlayer",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODIyMDk4M30.I3Q5awTdzoo1-N4htG8YfI5Uvy7SR35bSRex07ZCurY",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko\",\n    \"father\" : \"U Soe Naing\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/footballClub/62f9ded9a6460d3f40c93c9c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"footballClub",
+								"62f9ded9a6460d3f40c93c9c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PlayerUpdate",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0OTEyOWNlOGMwZjFkZjAyOGYwZSIsImlhdCI6MTY1ODQ2NTY3MX0.7w0hmf9bMJ77S5u20uMcr9JjLlQ90SI7xt01fqC0iYo",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Ko Nyein Ko \",\n    \"father\" : \"U Soe Naing\",\n    \"mother\" : \"Daw Htay Htay\",\n    \"age\" : 30,\n    \"address\" : \"Sagaing Division , Kani TownShip , Kae Daung Village\",\n    \"work\" : \"Coat\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/kaeDaung/footballClub/629194a7b1560365f4f60809",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"kaeDaung",
+								"footballClub",
+								"629194a7b1560365f4f60809"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "contactManager",
+			"item": [
+				{
+					"name": "newContactAdd",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"test \",\n    \"email\" : \"khin@gmail.com\",\n    \"phoneNo\" : \"09979360669\",\n    \"address\" : \"Kani TownShip , Nga Chaung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/KaeDaung/manager",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"KaeDaung",
+								"manager"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateContact",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Khin Khin Chaw\",\n    \"email\" : \"khinchaw@gmail.com\",\n    \"phoneNo\" : \"09978921802\",\n    \"address\" : \"Kani TownShip , Kae Daung Village\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/KaeDaung/manager/62e2240836a4a570764ac5b8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"KaeDaung",
+								"manager",
+								"62e2240836a4a570764ac5b8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteContact",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/KaeDaung/manager/62e226d1d140a62da1a17fa7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"KaeDaung",
+								"manager",
+								"62e226d1d140a62da1a17fa7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllContact",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/KaeDaung/manager",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"KaeDaung",
+								"manager"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getAllContact",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/KaeDaung/manager",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"KaeDaung",
+										"manager"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "166"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a6-H+KAiWG2e8DPjRen6LjNYZk88uI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 28 Jul 2022 05:50:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"62e21f5c42d021fa58601e8f\",\n        \"name\": \"Thet Paing Lin\",\n        \"email\": \"kctpl11293@gmail.com\",\n        \"phoneNo\": 9978921802,\n        \"address\": \"Kani TownShip , Kae Daung Village\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "http://localhost:3000/image/shoe_1.png",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/image/shoe_1.png",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"image",
+								"shoe_1.png"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/image/shoe_1.png",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/image/shoe_1.png",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"image",
+								"shoe_1.png"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "Createuser",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userName\" : \"Thet Paing Lin\",\n    \"password\" : \"khinchaw\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Createuser",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"userName\" : \"Khin Chaw\",\n    \"password\" : \"tpl*124#\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "160"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a0-rvLpttIs85V38J3EmLAC6WDhYWo\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 07 Aug 2022 04:59:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODM3OH0.5zJMhtd66LjD7bTLbTX_HH-3rbDXWV7Hd0K1fUzbEWY\"\n}"
+						}
+					]
+				},
+				{
+					"name": "getAllUsers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODM3OH0.5zJMhtd66LjD7bTLbTX_HH-3rbDXWV7Hd0K1fUzbEWY",
+								"type": "default",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/users/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODM3OH0.5zJMhtd66LjD7bTLbTX_HH-3rbDXWV7Hd0K1fUzbEWY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userName\" : \"Khin Chaw\",\n    \"password\" : \"tpl*124#\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODM3OH0.5zJMhtd66LjD7bTLbTX_HH-3rbDXWV7Hd0K1fUzbEWY",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\" : \"Khin Chaw\",\n    \"password\" : \"tpl*124#\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "160"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a0-+oU7iK1GZBjBDqlLVG5lW9zPA/M\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 07 Aug 2022 05:00:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODQwN30.Gw1Fwj5boSqnqGpjP7SPQmEdmCsmA4EUDOA9hmLxiuc\"\n}"
+						}
+					]
+				},
+				{
+					"name": "LoginNext",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"kctpl112932\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODM3OH0.5zJMhtd66LjD7bTLbTX_HH-3rbDXWV7Hd0K1fUzbEWY",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"userName\" : \"Khin Chaw\",\n    \"password\" : \"tpl*124#\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "160"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a0-+oU7iK1GZBjBDqlLVG5lW9zPA/M\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 07 Aug 2022 05:00:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWY0NmJhOWNlOGMwZjFkZjAyOGYwOCIsImlhdCI6MTY1OTg0ODQwN30.Gw1Fwj5boSqnqGpjP7SPQmEdmCsmA4EUDOA9hmLxiuc\"\n}"
+						}
+					]
+				},
+				{
+					"name": "TokenAccess",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWUwOTAxYTAzMmQ3ZjA4MDczYTI3OCIsImlhdCI6MTY1OTc4MTk2NH0.C4FB0adXrvyFVD7TXDi098Lffa56E0U614vXh9V2t_8",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/movies/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"movies",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

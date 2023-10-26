@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "62e8e8a7bfa1607a3d737655"
+  },
+  "name": "Ko Nyein Ko",
+  "email": "nyeinko@gmail.com",
+  "phoneNo": 9975136538,
+  "address": "Kae Daung Village, Kani TownShip",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e9e679bfa1607a3d73765d"
+  },
+  "name": "Ko Soe Ko Chit",
+  "email": "mupaingchit@gmail.com",
+  "phoneNo": 9956324203,
+  "address": "Kae Daung Village,Kani TownShip , Sagaing Divisioin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ede5dd10e7906a637ac6a8"
+  },
+  "name": "U Sein Win Khaing",
+  "email": "seinwinkhaing@gmail.com",
+  "phoneNo": 9956847345,
+  "address": "Kae Daung Village , Kani TownShip",
+  "__v": 0
+}]

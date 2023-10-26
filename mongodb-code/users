@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "62ef46ba9ce8c0f1df028f08"
+  },
+  "username": "Khin Chaw",
+  "password": "$2a$10$X7Sao3GqvhHNBGb7opRECeKp75xBuxyaCT3TVBIg4DMY4P4miFUkO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ef49129ce8c0f1df028f0e"
+  },
+  "username": "admin",
+  "password": "$2a$10$LJ1YKL/gJtl4LWWJ.CPDxOuI2ofq9GXw6hmKt1eCSJZrRvbTB9yEe",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ef49519ce8c0f1df028f10"
+  },
+  "username": "Thet Paing Lin",
+  "password": "$2a$10$0pq9vnJKyc6hmdqiMv1Cbuhr0t7b3sd2dYrlKtVidbt1rgtqrXgza",
+  "__v": 0
+}]
